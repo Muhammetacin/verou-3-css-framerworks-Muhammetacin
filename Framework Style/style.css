@@ -43,7 +43,7 @@ body .btn-primary:hover, body .btn-primary:focus:hover {
 }
 
 body .card:hover {
-  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
-          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
 }
 /*# sourceMappingURL=style.css.map */
