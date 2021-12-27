@@ -8,6 +8,8 @@
     <title>CSS Framework Exercise</title>
 
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +20,7 @@
 
 <body>
     <div class="container-fluid w-75 d-flex flex-wrap justify-content-around pt-4">
-          <!-- <div class="
+        <!-- <div class="
           row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4
           px-4
           pt-4
@@ -147,12 +149,19 @@
                             leaders! Recommending.
                         </p>
                         <hr class="m-5" />
-                        <a href="#" class="btn btn-primary shadow-lg w-xl-50 align-self-center">LEARN MORE</a>
+                        <a href="#" class="btn btn-primary shadow-lg w-xl-50 align-self-center" data-toggle="tooltip"
+                            data-placement="top" title="Tooltip on top">LEARN MORE</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>
