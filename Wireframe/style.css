@@ -18,4 +18,9 @@ body {
   margin-left: 3rem;
   margin-right: -3rem;
 }
+
+.divider {
+  width: 80vw;
+  margin-left: -3em;
+}
 /*# sourceMappingURL=style.css.map */
