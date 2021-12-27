@@ -2,4 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #FAFAFA;
+}
+
+.wrapper {
+  min-width: 80vw;
+  max-width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.image {
+  margin-left: 3rem;
+  margin-right: -3rem;
+}
 /*# sourceMappingURL=style.css.map */
